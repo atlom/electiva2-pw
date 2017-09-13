@@ -1,0 +1,29 @@
+{
+  "name": "electiva2-pw",
+  "version": "0.0.1",
+  "authors": [
+    "Juan Acuña <jaaf27@hotmail.com>",
+    "Lorena Acosta <lorena.acosta95@gmail.com>"
+  ],
+  "description": "Electiva 2 Programaccion Web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "jquery-ui": "*",
+    "fontawesome": "*",
+    "bootstrap-sass": "*",
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-marked": "^1.2.2"
+  },
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
