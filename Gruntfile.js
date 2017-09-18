@@ -141,9 +141,12 @@ module.exports = function (grunt) {
             libs: {
                 src: [
                 //vendors js
-                '<%=app.src%>/vendors/jquery/<%=app.dist%>/jquery.min.js',
+                '<%=app.src%>/vendors/jquery/dist/jquery.min.js',
                 '<%=app.src%>/vendors/jquery-ui/jquery-ui.min.js',
-                '<%=app.src%>/vendors/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+                /*'<%=app.src%>/vendors/bootstrap-sass/assets/javascripts/bootstrap.min.js',*/
+                '<%=app.src%>/vendors/angular/angular.min.js',
+                '<%=app.src%>/vendors/angular-marked/dist/angular-marked.min.js',
+                '<%=app.src%>/vendors/angular-route/angular-route.min.js',
                 //app scripts
                 '<%=app.dist%>/js/app.js',
                 '<%=app.dist%>/js/controllers/**/*.js'

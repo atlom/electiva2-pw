@@ -2,3 +2,31 @@
 @import "../vendors/fontawesome/scss/font-awesome";
 @import "../vendors/bootstrap-sass/assets/stylesheets/bootstrap";
 //
+
+.navtop{
+    @extend .navbar;
+    margin-bottom: 0px;
+}
+
+#sidebar-wrapper{
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #f8f8f8;
+    opacity: 0.9;
+}
+
+#main-wrapper{
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #sidebar-wrapper{
+    width: 220px;
+}
+
+#wrapper.toggled #main-wrapper{
+    padding-left: 220px;
+}
